@@ -1,0 +1,37 @@
+.footer {
+  min-height: 440px;
+  background: var(--grandfather-60);
+  display: flex;
+
+  .logoSection {
+    flex: 0 36.76%;
+    padding-top: 68px;
+    padding-left: 138px;
+  }
+
+  .roadMap {
+    display: flex;
+    padding-top: 73px;
+  }
+
+  .socials {
+    padding-top: 73px;
+
+    .header {
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .links {
+      display: flex;
+      a {
+        margin-top: 22px;
+        margin-right: 22px;
+      }
+    }
+  }
+}

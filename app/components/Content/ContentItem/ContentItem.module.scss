@@ -1,0 +1,72 @@
+.article {
+ display: flex;
+  margin: 90px 0;
+  .imageContainer {
+    width: 370px;
+    height: 445px;
+    position: relative;
+    object-fit: cover;
+  }
+  .info {
+    position: relative;
+    max-width: 372px;
+    margin-left: 123px;
+    flex: 1;
+    padding-top: 55px;
+    .category {
+      color: var(--grandfather-30);
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .itemNumber {
+      color: var(--grandfather-80);
+      font-size: 450px;
+      line-height: 450px; /* 100% */
+      letter-spacing: -13.5px;
+      position: absolute;
+      top: -40px;
+      z-index: -1;
+      left: -188px;
+    }
+    .title {
+      color: var(--father-hero);
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 142.857% */
+      letter-spacing: -0.84px;
+      width: 90%;
+    }
+    .text {
+      color: var(--father-hero);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      margin-top: 22px;
+    }
+  }
+  &.articleReversed {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 180px;
+    .info {
+      margin-right: 123px;
+      margin-left: 0px;
+      padding-top: 86px;
+    }
+    .itemNumber {
+      left: 20px;
+      top: 0px;
+    }
+  }
+}
+
+

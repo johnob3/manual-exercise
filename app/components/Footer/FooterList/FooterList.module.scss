@@ -1,0 +1,18 @@
+.footerList {
+  min-width: 175px;
+  margin: 0 25px;
+  .title {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .item {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}

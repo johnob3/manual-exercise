@@ -1,0 +1,14 @@
+.contentContainer {
+  max-width: 965px;
+  margin: 0 auto;
+  h2 {
+    color: var(--father-hero);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    font-weight: 400;
+    margin: 70px auto;
+  }
+}
