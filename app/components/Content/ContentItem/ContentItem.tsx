@@ -14,7 +14,7 @@ export default function ContentItem({itemNumber, category, text, title, imageUrl
     return (
         <article className={clsx(styles.article, isReversed && styles.articleReversed)}>
             <div className={styles.imageContainer}>
-                <Image src={imageUrl} width={370} height={445} alt={category}/>
+                <Image src={imageUrl}  fill alt={category} sizes="(max-width: 768px) 500%, 100%"/>
             </div>
             <div className={styles.info}>
                 <p className={styles.itemNumber}>{itemNumber}</p>

@@ -2,11 +2,23 @@
   min-height: 440px;
   background: var(--grandfather-60);
   display: flex;
+  flex-direction: column;
+
+  .footerContent {
+    display: flex;
+    @media all and (max-width: 1100px) {
+      flex-direction: column;
+    }
+  }
 
   .logoSection {
-    flex: 0 36.76%;
+    flex: 0 25.76%;
     padding-top: 68px;
     padding-left: 138px;
+    @media all and (max-width: 1100px) {
+      padding-left: 0;
+      margin: 0 auto;
+    }
   }
 
   .roadMap {
@@ -16,7 +28,9 @@
 
   .socials {
     padding-top: 73px;
-
+    @media all and (max-width: 1100px) {
+      text-align: center;
+    }
     .header {
       font-size: 10px;
       font-style: normal;
@@ -28,10 +42,30 @@
 
     .links {
       display: flex;
+      @media all and (max-width: 1100px) {
+        justify-content: center;
+      }
       a {
         margin-top: 22px;
         margin-right: 22px;
       }
+    }
+  }
+
+  .copyRight {
+    padding-top: 38px;
+    text-align: center;
+    color: #6D8A83;
+    @media all and (max-width: 1100px) {
+      padding-bottom: 15px;
+    }
+    hr {
+      border-top: 1px solid #6d8a833b;
+      width: 80%;
+      margin: 0 auto;
+    }
+    p {
+      padding-top: 20px;
     }
   }
 }

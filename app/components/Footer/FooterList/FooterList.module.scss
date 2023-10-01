@@ -1,6 +1,10 @@
 .footerList {
-  min-width: 175px;
+  min-width: 11vw;
   margin: 0 25px;
+  @media all and (max-width: 1100px) {
+    flex: 0 33%;
+  }
+
   .title {
     font-size: 10px;
     font-style: normal;
@@ -9,6 +13,7 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
+
   .item {
     margin-top: 20px;
     font-style: normal;
