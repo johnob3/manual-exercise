@@ -9,6 +9,10 @@
     display: flex;
     justify-content: flex-end;
     padding-top: 50px;
+    @media all and (max-width: 888px) {
+      padding-top: 20px;
+      padding-right: 10px;
+    }
     button {
       background: transparent;
       border: none;
@@ -25,6 +29,9 @@
       font-style: normal;
       font-weight: 400;
       padding: 15px;
+      @media all and (max-width: 888px) {
+        font-size: 20px;
+      }
     }
     .step {
       padding: 15px;
@@ -35,6 +42,9 @@
       flex-flow: row wrap;
       margin: 20px 0 ;
       padding: 15px;
+      @media all and (max-width: 888px) {
+        margin: 0;
+      }
       label {
         flex: 0 48%;
         margin: 1%;
