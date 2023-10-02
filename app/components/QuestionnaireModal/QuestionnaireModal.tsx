@@ -70,7 +70,7 @@ const QuestionnaireModal = ({isOpen, onClose}: Props) => {
         });
 
         const positiveResult = (<>Great news! We have the perfect treatment for your hair loss. Proceed to <a
-            href="www.manual.co">www.manual.co</a>, and prepare to say hello to your new hair!</>)
+            href="https://www.manual.co">www.manual.co</a>, and prepare to say hello to your new hair!</>)
         const negativeResult = (<>Unfortunately, we are unable to prescribe this medication for you. This is because
             finasteride can alter the PSA levels, which maybe used to monitor for cancer. You should discuss this
             further with your GP or specialist if you would still like this medication.</>)
@@ -111,7 +111,7 @@ const QuestionnaireModal = ({isOpen, onClose}: Props) => {
                 ))}
                 {(result && currentStep >= questions.questions?.length) && <p className={styles.result}>{result}</p>}
                 <div className={styles.controls}>
-                    {currentStep > 0 && (
+                    {(currentStep > 0 && !result) && (
                         <button className={styles.backBtn} disabled={currentStep > answers.length + 1}
                                 onClick={handleGoBack}>Go Back</button>
                     )}

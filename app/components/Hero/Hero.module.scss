@@ -15,6 +15,9 @@
       position: absolute;
       top: 30px;
       left: 10%;
+      @media all and (max-width: 888px) {
+        z-index: 2;
+      }
     }
   }
 
