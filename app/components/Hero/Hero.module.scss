@@ -33,6 +33,8 @@
       top: 0;
       overflow: hidden;
       height: -webkit-fill-available;
+      height: -moz-available;
+      height: fill-available;
       padding-top: 150px;
     }
     h2 {
