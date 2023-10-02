@@ -43,6 +43,10 @@
       line-height: 90px;
       letter-spacing: -2.7px;
       margin: 0;
+      @media all and (max-width: 888px){
+        font-size: 70px;
+        line-height: 70px;
+      }
     }
     p {
       color: var(--father-hero);

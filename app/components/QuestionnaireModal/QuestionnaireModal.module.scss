@@ -42,6 +42,9 @@
         justify-content: center;
         box-shadow: 1px 1px 1px 1px #ddd;
         padding: 5px 0;
+        img {
+          width: 100%;
+        }
       }
       input {
         width: 0;
