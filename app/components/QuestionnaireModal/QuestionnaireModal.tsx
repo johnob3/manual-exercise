@@ -7,7 +7,7 @@ import styles from './QuestionnaireModal.module.scss';
 
 const fetcher = (url: string) => fetch(`https://proxy.cors.sh/${url}`, {
     headers: {
-        'x-cors-api-key': 'temp_66d3e936aaa17503c5cc48aa904a3c7c'
+        'x-cors-api-key': 'temp_dfca4e0b6d4c60d35fc870e9a053ae42'
     }
 }).then(r => r.json())
 
